@@ -18,6 +18,9 @@ inputCopy
 6 6 4
 outputCopy
 4
+
+What we learned:
+Remainder/modulo can not be reused when filling the volume of the square. Math ceil rounds up instead of divisions default down. You can fmt.Scanf multiple values.
 */
 
 package main
