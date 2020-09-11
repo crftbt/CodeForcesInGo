@@ -39,26 +39,17 @@ package main
 import "fmt"
 
 func main() {
-	var number_of_input_lines, surity int
+	var number_of_input_lines, petya, vasya, tonya, surity int
 	fmt.Scanf("%d\n", &number_of_input_lines)
 
 	number_of_input_lines_for_slice := number_of_input_lines + 1
 
-	var problems_slice []int
-
-	mathtesting := 0
 	for i := 1; i < number_of_input_lines_for_slice; i++ {
-		//	for i, _ := range problems_slice {
-		var petya, vasya, tonya int
+
 		fmt.Scanf("%d %d %d\n", &petya, &vasya, &tonya)
 
-		mathtesting = petya + vasya + tonya
-		problems_slice = append(problems_slice, mathtesting)
-	}
-
-	for _, value := range problems_slice {
-		if value >= 2 {
-			surity = surity + 1
+		if petya+vasya+tonya >= 2 {
+			surity++
 		}
 	}
 
