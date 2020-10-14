@@ -1,10 +1,3 @@
-package main
-
-import (
-	"fmt"
-	"strings"
-)
-
 /* https://codeforces.com/problemset/problem/112/A
 A. Petya and Strings
 time limit per test2 seconds
@@ -41,6 +34,13 @@ If you want more formal information about the lexicographical order (also known 
 http://en.wikipedia.org/wiki/Lexicographical_order
 
 */
+
+package main
+
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	var stringInput1, stringInput2 string
