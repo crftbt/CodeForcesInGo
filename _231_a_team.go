@@ -40,13 +40,13 @@ import "fmt"
 
 func main() {
 	var number_of_input_lines, petya, vasya, tonya, surity int
-	fmt.Scanf("%d\n", &number_of_input_lines)
+	fmt.Scanln(&number_of_input_lines)
 
 	number_of_input_lines_for_slice := number_of_input_lines + 1
 
 	for i := 1; i < number_of_input_lines_for_slice; i++ {
 
-		fmt.Scanf("%d %d %d\n", &petya, &vasya, &tonya)
+		fmt.Scanln(&petya, &vasya, &tonya)
 
 		if petya+vasya+tonya >= 2 {
 			surity++

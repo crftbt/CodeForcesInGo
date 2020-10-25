@@ -20,7 +20,7 @@ outputCopy
 4
 
 What we learned:
-Remainder/modulo can not be reused when filling the volume of the square. Math ceil rounds up instead of divisions default down. You can fmt.Scanf multiple values.
+Remainder/modulo can not be reused when filling the volume of the square. Math ceil rounds up instead of divisions default down. You can fmt.Scanln multiple values.
 */
 
 package main
@@ -32,7 +32,7 @@ import (
 
 func main() {
 	var n, m, a float64
-	fmt.Scanf("%b %b %b", &n, &m, &a)
+	fmt.Scanln(&n, &m, &a)
 
 	a_in_n_ceil := uint64(math.Ceil(n / a))
 

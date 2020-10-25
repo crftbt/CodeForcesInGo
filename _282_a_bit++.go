@@ -43,7 +43,7 @@ import "fmt"
 
 func main() {
 	var numberOfLines, counter int
-	fmt.Scanf("%d\n", &numberOfLines)
+	fmt.Scanln(&numberOfLines)
 
 	var operation string
 	for i := 0; i < numberOfLines; i++ {

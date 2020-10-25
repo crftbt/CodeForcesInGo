@@ -47,7 +47,7 @@ func main() {
 	fmt.Scanln(&n)
 
 	for i := 0; i < n; i++ {
-		fmt.Scanf("%d %d\n", &a, &b)
+		fmt.Scanln(&a, &b)
 		capacity -= a
 		capacity += b
 		if capacity > min {

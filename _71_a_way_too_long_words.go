@@ -33,7 +33,7 @@ i18n
 p43s
 
 What we learned:
-Codeforces.com needs \n on fmt.Scanf. Looping through input from Codeforces.com is acceptable. :)
+Looping through input from Codeforces.com is acceptable. :)
 */
 
 package main

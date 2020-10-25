@@ -25,7 +25,7 @@ For example, the boys can divide the watermelon into two parts of 2 and 6 kilos 
 ---
 
 What we learned:
-CodeForces takes input with fmt.Scanf and not os.Args. 1 is an odd number of slices. Each submission shows the full results of tests, including input, in the submission number link.
+CodeForces takes input with fmt.Scanln and not os.Args. 1 is an odd number of slices. Each submission shows the full results of tests, including input, in the submission number link.
 */
 
 package main

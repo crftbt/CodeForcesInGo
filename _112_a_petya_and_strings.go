@@ -44,7 +44,8 @@ import (
 
 func main() {
 	var stringInput1, stringInput2 string
-	fmt.Scanf("%s\n%s\n", &stringInput1, &stringInput2)
+	fmt.Scanln(&stringInput1)
+	fmt.Scanln(&stringInput2)
 
 	stringInput1 = strings.ToLower(stringInput1)
 	stringInput2 = strings.ToLower(stringInput2)

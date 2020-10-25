@@ -40,9 +40,7 @@ func main() {
 	coordinates := make([]int, 3)
 	var x, y, z int
 	for row := 0; row < rows; row++ {
-		for column := 0; column < 3; column++ {
-			fmt.Scan(&coordinates[column])
-		}
+		fmt.Scanln(&coordinates[0], &coordinates[1], &coordinates[2])
 		x += coordinates[0]
 		y += coordinates[1]
 		z += coordinates[2]

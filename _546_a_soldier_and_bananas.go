@@ -27,7 +27,7 @@ import "fmt"
 
 func main() {
 	var k, w, n, price, total int
-	fmt.Scanf("%d %d %d\n", &k, &w, &n)
+	fmt.Scanln(&k, &w, &n)
 	for banana := 1; banana < n+1; banana++ {
 		price = k * banana
 		total += price

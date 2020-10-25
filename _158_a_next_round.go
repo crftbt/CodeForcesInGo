@@ -41,7 +41,7 @@ import "fmt"
 
 func main() {
 	var size_of_slice, finisher_place, total_to_next_round int
-	fmt.Scanf("%d %d\n", &size_of_slice, &finisher_place)
+	fmt.Scanln(&size_of_slice, &finisher_place)
 
 	scores := make([]int, size_of_slice)
 	for i := 0; i < size_of_slice; i++ {

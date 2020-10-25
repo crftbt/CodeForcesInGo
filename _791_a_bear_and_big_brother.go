@@ -45,7 +45,7 @@ import "fmt"
 
 func main() {
 	var a, b, i int
-	fmt.Scanf("%d %d", &a, &b)
+	fmt.Scanln(&a, &b)
 
 	for {
 		i++
