@@ -34,12 +34,12 @@ import "fmt"
 
 func main() {
 	var n int
-	fmt.Scanf("%d\n", &n)
+	fmt.Scanln(&n)
 	if n%2 != 0 {
-		fmt.Printf("NO\n")
+		fmt.Println("NO")
 	} else if n <= 2 {
-		fmt.Printf("NO\n")
+		fmt.Println("NO")
 	} else {
-		fmt.Printf("YES\n")
+		fmt.Println("YES")
 	}
 }
