@@ -42,11 +42,11 @@ import "fmt"
 
 func main() {
 	var number_of_lines int
-	fmt.Scanf("%d\n", &number_of_lines)
+	fmt.Scanln(&number_of_lines)
 
+	var word string
 	for i := 0; i < number_of_lines; i++ {
-		var word string
-		fmt.Scanf("%s\n", &word)
+		fmt.Scanln(&word)
 
 		total_string_length := len(word)
 		if total_string_length > 10 {

@@ -45,9 +45,9 @@ func main() {
 	var numberOfLines, counter int
 	fmt.Scanf("%d\n", &numberOfLines)
 
+	var operation string
 	for i := 0; i < numberOfLines; i++ {
-		var operation string
-		fmt.Scanf("%s\n", &operation)
+		fmt.Scanln(&operation)
 
 		switch operation {
 		case "X++", "++X":
