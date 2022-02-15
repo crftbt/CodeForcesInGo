@@ -30,8 +30,8 @@ import (
 	"math"
 )
 
-func main() {
-	var n, m, a float64
+func input_calc(n, m, a float64) uint64 {
+
 	fmt.Scanln(&n, &m, &a)
 
 	a_in_n_ceil := uint64(math.Ceil(n / a))
@@ -40,6 +40,12 @@ func main() {
 
 	a_in_n_and_m := a_in_n_ceil * a_in_m_ceil
 
-	fmt.Println(a_in_n_and_m)
+	return a_in_n_and_m
+
+}
+
+func main() {
+
+	fmt.Println(input_calc(0, 0, 0))
 
 }
