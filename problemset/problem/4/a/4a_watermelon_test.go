@@ -4,11 +4,11 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func TestExamples(t *testing.T) {
 
-	answer := input_calc(8)
-	if answer != "YES" {
-		t.Log("error should be YES, but got", answer)
+	example := input_calc(8)
+	if example != "YES" {
+		t.Log("error should be YES, but got", example)
 		t.Fail()
 	}
 }

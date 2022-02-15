@@ -36,13 +36,17 @@ import (
 	"fmt"
 )
 
-func main() {
-	var n, m int64
+func input_calc(n, m int64) int64 {
+
 	fmt.Scanln(&n, &m)
 
 	capacity := n * m
 
 	usage := capacity / 2
 
-	fmt.Println(usage)
+	return usage
+}
+
+func main() {
+	fmt.Println(input_calc(0, 0))
 }
