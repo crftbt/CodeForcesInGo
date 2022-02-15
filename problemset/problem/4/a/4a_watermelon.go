@@ -32,14 +32,20 @@ package main
 
 import "fmt"
 
-func main() {
-	var n int
+func input_calc(n int) string {
+	var answer string
 	fmt.Scanln(&n)
 	if n%2 != 0 {
-		fmt.Println("NO")
+		answer = "NO"
 	} else if n <= 2 {
-		fmt.Println("NO")
+		answer = "NO"
 	} else {
-		fmt.Println("YES")
+		answer = "YES"
 	}
+
+	return answer
+}
+
+func main() {
+	fmt.Println(input_calc(0))
 }
