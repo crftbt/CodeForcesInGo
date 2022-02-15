@@ -27,19 +27,23 @@ package main
 
 import "fmt"
 
-func main() {
+func input_calc(input_string string) string {
 	var hello_index int
-	var input_string string
+	var yn string
 	hello := []rune("hello")
 	fmt.Scanln(&input_string)
 	for _, letter := range input_string {
 		if letter == hello[hello_index] {
 			hello_index++
 			if hello_index == 5 {
-				fmt.Println("YES")
-				return
+				yn = "YES"
+				return yn
 			}
 		}
 	}
-	fmt.Println("NO")
+	yn = "NO"
+	return yn
+}
+func main() {
+	fmt.Println(input_calc(""))
 }
