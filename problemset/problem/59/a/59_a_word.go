@@ -35,9 +35,8 @@ import (
 	"unicode"
 )
 
-func main() {
+func input_calc(s string) string {
 	var upper, lower int
-	var s string
 	fmt.Scanln(&s)
 
 	for _, letter := range s {
@@ -49,8 +48,12 @@ func main() {
 	}
 
 	if upper > len(s)/2 {
-		fmt.Println(strings.ToUpper(s))
+		return strings.ToUpper(s)
 	} else {
-		fmt.Println(strings.ToLower(s))
+		return strings.ToLower(s)
 	}
+}
+
+func main() {
+	fmt.Println(input_calc(""))
 }
