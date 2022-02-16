@@ -41,7 +41,6 @@ func input_calc(n, m int64) int64 {
 	fmt.Scanln(&n, &m)
 
 	capacity := n * m
-
 	usage := capacity / 2
 
 	return usage

@@ -35,9 +35,7 @@ func input_calc(n, m, a float64) uint64 {
 	fmt.Scanln(&n, &m, &a)
 
 	a_in_n_ceil := uint64(math.Ceil(n / a))
-
 	a_in_m_ceil := uint64(math.Ceil(m / a))
-
 	a_in_n_and_m := a_in_n_ceil * a_in_m_ceil
 
 	return a_in_n_and_m
